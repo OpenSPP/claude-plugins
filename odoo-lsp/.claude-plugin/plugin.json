@@ -1,0 +1,11 @@
+{
+  "name": "odoo-lsp",
+  "description": "Odoo language server (odoo-ls) for Claude Code",
+  "version": "1.0.0",
+  "author": {
+    "name": "OpenSPP"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/OpenSPP/claude-plugins",
+  "homepage": "https://github.com/odoo/odoo-ls"
+}

@@ -1,0 +1,13 @@
+{
+  "odoo": {
+    "command": "odoo_ls_server",
+    "args": [],
+    "extensionToLanguage": {
+      ".py": "python",
+      ".xml": "xml",
+      ".csv": "csv"
+    },
+    "restartOnCrash": true,
+    "maxRestarts": 3
+  }
+}
