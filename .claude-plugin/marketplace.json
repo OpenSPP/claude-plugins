@@ -1,0 +1,29 @@
+{
+  "name": "openspp-plugins",
+  "owner": {
+    "name": "OpenSPP",
+    "email": "dev@openspp.org"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for OpenSPP and Odoo development",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "odoo-lsp",
+      "source": "./odoo-lsp",
+      "description": "Odoo language server (odoo-ls) for Claude Code — diagnostics, completions, and code navigation for Odoo projects",
+      "version": "1.0.0",
+      "author": {
+        "name": "OpenSPP"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/odoo/odoo-ls",
+      "repository": "https://github.com/OpenSPP/claude-plugins",
+      "keywords": ["odoo", "lsp", "language-server", "openspp"],
+      "category": "language-support",
+      "tags": ["odoo", "python", "xml", "erp"]
+    }
+  ]
+}

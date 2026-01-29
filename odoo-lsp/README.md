@@ -8,6 +8,13 @@ Integrates the [odoo-ls](https://github.com/odoo/odoo-ls) language server with C
 - **Code navigation**: Go-to-definition for models, fields, compute methods; find-references; hover info; workspace symbol search (including XML IDs)
 - **Completions**: Model names, fields, method signatures, `self.env["model"]` patterns
 
+## Install the Plugin
+
+```
+/plugin marketplace add OpenSPP/claude-plugins
+/plugin install odoo-lsp@openspp-plugins
+```
+
 ## Prerequisites
 
 ### 1. Build and install `odoo_ls_server`
